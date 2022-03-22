@@ -1560,7 +1560,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^1.1.0":
+"@eslint/eslintrc@npm:^1.2.1":
   version: 1.2.1
   resolution: "@eslint/eslintrc@npm:1.2.1"
   dependencies:
@@ -3724,11 +3724,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.9.0":
-  version: 8.9.0
-  resolution: "eslint@npm:8.9.0"
+"eslint@npm:8.11.0":
+  version: 8.11.0
+  resolution: "eslint@npm:8.11.0"
   dependencies:
-    "@eslint/eslintrc": ^1.1.0
+    "@eslint/eslintrc": ^1.2.1
     "@humanwhocodes/config-array": ^0.9.2
     ajv: ^6.10.0
     chalk: ^4.0.0
@@ -3765,7 +3765,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: 8efecdb9752ee6cb4d2787a14e00cbeab29562ed95dd71c6f3f8ac410426a067d5aa659416d2290e46ca44bc5607e6a6e6c62f814694d8639f80666f522022a7
+  checksum: a06a2ea37002d6c0a4f462fe31b4411185dc3da7857fafb896eb392ba95a1289cc3538056474b2f44f08012f265bede01a39d46df4ac39ebc6d7be90e2c8f9fa
   languageName: node
   linkType: hard
 
@@ -6537,7 +6537,7 @@ __metadata:
     "@svgr/core": ^6.2.1
     "@svgr/plugin-jsx": ^6.2.1
     "@types/jest": 27.4.1
-    eslint: 8.9.0
+    eslint: 8.11.0
     jest: 27.5.1
     prettier: 2.5.1
     rollup: 2.70.1
