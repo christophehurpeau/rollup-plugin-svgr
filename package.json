@@ -1,0 +1,80 @@
+{
+  "name": "rollup-plugin-svgr",
+  "version": "0.0.0",
+  "description": "simple rollup plugin svgr without svgo or babel",
+  "keywords": [],
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
+  "license": "ISC",
+  "repository": "https://github.com/christophehurpeau/rollup-plugin-svgr.git",
+  "homepage": "https://github.com/christophehurpeau/rollup-plugin-svgr",
+  "type": "commonjs",
+  "engines": {
+    "node": "^14.13.1 || >=16.0.0"
+  },
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "lint": "yarn run lint:prettier && yarn run lint:eslint",
+    "lint:eslint": "eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet *.{js,cjs,mjs} lib",
+    "lint:prettier": "prettier --check .",
+    "postinstallDev": "pob-root-postinstall",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true,
+    "arrowParens": "always"
+  },
+  "commitlint": {
+    "extends": [
+      "@pob/commitlint-config"
+    ]
+  },
+  "jest": {
+    "cacheDirectory": "./node_modules/.cache/jest",
+    "testMatch": [
+      "<rootDir>/lib/**/__tests__/**/*.?(m)js",
+      "<rootDir>/lib/**/*.test.?(m)js"
+    ],
+    "collectCoverageFrom": [
+      "lib/**/*.?(m)js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ],
+    "testEnvironment": "node"
+  },
+  "pob": {},
+  "peerDependencies": {
+    "@babel/core": "^7.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@babel/core": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@rollup/pluginutils": "^4.2.0",
+    "@svgr/core": "^6.2.1",
+    "@svgr/plugin-jsx": "^6.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.17.8",
+    "@babel/preset-env": "7.16.11",
+    "@babel/preset-react": "7.16.7",
+    "@pob/commitlint-config": "4.1.0",
+    "@pob/eslint-config": "49.0.0",
+    "@pob/root": "6.10.0",
+    "@types/jest": "27.4.0",
+    "eslint": "8.9.0",
+    "jest": "27.5.1",
+    "prettier": "2.5.1",
+    "rollup": "2.70.1"
+  }
+}
