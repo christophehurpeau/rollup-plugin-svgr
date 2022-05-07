@@ -6547,7 +6547,7 @@ __metadata:
     eslint: 8.15.0
     jest: 27.5.1
     prettier: 2.6.2
-    rollup: 2.72.0
+    rollup: 2.72.1
   peerDependencies:
     "@babel/core": ^7.0.0
   peerDependenciesMeta:
@@ -6556,9 +6556,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"rollup@npm:2.72.0":
-  version: 2.72.0
-  resolution: "rollup@npm:2.72.0"
+"rollup@npm:2.72.1":
+  version: 2.72.1
+  resolution: "rollup@npm:2.72.1"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -6566,7 +6566,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: d4c213d4250a0455e0ee40664db3339a9e3ca5affa09c348019b4895e7100cdbedeba881a239a7a80c407b4055dca4e97d10a740d99c09b17651efbfedd61a4b
+  checksum: 3dca122129f560acc3c54dd5bd5f9470dd562d74f61c652c57b6a4355a963c0828640382ebff544f1b0e71387733a51fb963d6f761ae1f05a84f5923bbde883c
   languageName: node
   linkType: hard
 
