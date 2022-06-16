@@ -70,7 +70,7 @@
     "@babel/preset-react": "7.17.12",
     "@pob/commitlint-config": "4.3.0",
     "@pob/eslint-config": "49.1.0",
-    "@pob/root": "6.10.0",
+    "@pob/root": "6.20.1",
     "@types/jest": "27.5.2",
     "eslint": "8.17.0",
     "jest": "28.1.1",
