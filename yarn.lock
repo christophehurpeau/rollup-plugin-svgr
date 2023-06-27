@@ -1451,12 +1451,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^17.0.0":
-  version: 17.0.0
-  resolution: "@commitlint/config-conventional@npm:17.0.0"
+"@commitlint/config-conventional@npm:^17.2.0":
+  version: 17.6.6
+  resolution: "@commitlint/config-conventional@npm:17.6.6"
   dependencies:
-    conventional-changelog-conventionalcommits: ^4.3.1
-  checksum: d2a8973c65de53bfc283795480c2d12d61507cb13e7e2be129de693c966cf39601e5ebf9b0928508a379f287487fc5ae022ba16868186edf98b5e0a9d73ee96f
+    conventional-changelog-conventionalcommits: ^5.0.0
+  checksum: 0f649a2cbe684aa18555cb0027c21f58d74216dbe0a850be041af50f1db04e447b7d90995bee54c61059d735b398de61ac7ecbfd312d14480aac3a3f8c62dd66
   languageName: node
   linkType: hard
 
@@ -1991,12 +1991,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/commitlint-config@npm:4.4.0":
-  version: 4.4.0
-  resolution: "@pob/commitlint-config@npm:4.4.0"
+"@pob/commitlint-config@npm:5.1.1":
+  version: 5.1.1
+  resolution: "@pob/commitlint-config@npm:5.1.1"
   dependencies:
-    "@commitlint/config-conventional": ^17.0.0
-  checksum: 0e062bc661cccf25f4e835adcdc94eec06a04433add114205e8122847c964e51d4d6fcb61a8889ca8a1d62844c42b54ff8746a6e1db76f9b3bbec61a6cbf94cf
+    "@commitlint/config-conventional": ^17.2.0
+  checksum: b6f2474dd14c7048e8facc45d2c068a1ad38d96ca263c208311464db2f38457063a9254310aa4714d3434b13492e3b7cf4290b074eff2e5c7807430656ef4db3
   languageName: node
   linkType: hard
 
@@ -3155,14 +3155,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:^4.3.1":
-  version: 4.6.3
-  resolution: "conventional-changelog-conventionalcommits@npm:4.6.3"
+"conventional-changelog-conventionalcommits@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "conventional-changelog-conventionalcommits@npm:5.0.0"
   dependencies:
     compare-func: ^2.0.0
     lodash: ^4.17.15
     q: ^1.5.1
-  checksum: 7b8e8a21ebb56f9aaa510e12917b7c609202072c3e71089e0a09630c37c2e8146cdb04364809839b0e3eb55f807fe84d03b2079500b37f6186d505848be5c562
+  checksum: b67d12e4e0fdde5baa32c3d77af472de38646a18657b26f5543eecce041a318103092fbfcef247e2319a16957c9ac78c6ea78acc11a5db6acf74be79a28c561f
   languageName: node
   linkType: hard
 
@@ -6358,7 +6358,7 @@ __metadata:
     "@babel/core": 7.22.5
     "@babel/preset-env": 7.22.5
     "@babel/preset-react": 7.22.5
-    "@pob/commitlint-config": 4.4.0
+    "@pob/commitlint-config": 5.1.1
     "@pob/eslint-config": 49.4.0
     "@pob/root": 6.10.0
     "@rollup/pluginutils": ^4.2.0
