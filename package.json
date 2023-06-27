@@ -68,7 +68,7 @@
     "@babel/preset-env": "7.22.5",
     "@babel/preset-react": "7.22.5",
     "@pob/commitlint-config": "6.0.0",
-    "@pob/eslint-config": "50.0.5",
+    "@pob/eslint-config": "51.0.0",
     "@pob/root": "8.0.0",
     "@types/jest": "29.5.2",
     "eslint": "8.43.0",
