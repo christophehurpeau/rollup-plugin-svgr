@@ -7,10 +7,11 @@
   "license": "ISC",
   "repository": "https://github.com/christophehurpeau/rollup-plugin-svgr.git",
   "homepage": "https://github.com/christophehurpeau/rollup-plugin-svgr",
-  "type": "commonjs",
+  "type": "module",
   "engines": {
     "node": ">=18.0.0"
   },
+  "packageManager": "yarn@3.6.0",
   "main": "./lib/index.js",
   "exports": {
     ".": "./lib/index.js",
@@ -18,15 +19,16 @@
   },
   "sideEffects": false,
   "scripts": {
+    "checks": "node scripts/check-package.js",
     "clean:build": "true",
     "lint": "yarn run lint:prettier && yarn run lint:eslint",
     "lint:eslint": "eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet *.{js,cjs,mjs} lib",
     "lint:prettier": "pob-root-prettier --check .",
     "lint:prettier:fix": "pob-root-prettier --write .",
     "postinstallDev": "pob-root-postinstall",
-    "test": "jest",
-    "test:coverage": "jest  --coverage --coverageReporters=json --coverageReporters=text",
-    "test:watch": "jest --watch"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:coverage": "NODE_OPTIONS=--experimental-vm-modules jest  --coverage --coverageReporters=json --coverageReporters=text",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --watch"
   },
   "prettier": "@pob/root/prettier-config",
   "commitlint": {
@@ -47,6 +49,7 @@
       "js",
       "json"
     ],
+    "extensionsToTreatAsEsm": [],
     "testEnvironment": "node"
   },
   "pob": {},
@@ -71,6 +74,7 @@
     "@pob/eslint-config": "51.0.0",
     "@pob/root": "8.0.0",
     "@types/jest": "29.5.2",
+    "check-package-dependencies": "6.4.1",
     "eslint": "8.43.0",
     "jest": "29.5.0",
     "rollup": "3.25.3"
