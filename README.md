@@ -3,11 +3,14 @@
 </h3>
 
 <p align="center">
-  simple rollup plugin svgr without svgo
+  simple rollup plugin svgr without svgo or babel
 </p>
 
 <p align="center">
   <a href="https://npmjs.org/package/rollup-plugin-svgr"><img src="https://img.shields.io/npm/v/rollup-plugin-svgr.svg?style=flat-square"></a>
+  <a href="https://npmjs.org/package/rollup-plugin-svgr"><img src="https://img.shields.io/npm/dw/rollup-plugin-svgr.svg?style=flat-square"></a>
+  <a href="https://npmjs.org/package/rollup-plugin-svgr"><img src="https://img.shields.io/node/v/rollup-plugin-svgr.svg?style=flat-square"></a>
+  <a href="https://npmjs.org/package/rollup-plugin-svgr"><img src="https://img.shields.io/npm/types/rollup-plugin-svgr.svg?style=flat-square"></a>
 </p>
 
 ## Install

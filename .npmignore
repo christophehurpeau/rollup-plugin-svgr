@@ -1,3 +1,4 @@
+/.husky
 /.github
 /build
 /docs
@@ -5,7 +6,10 @@
 /samples
 /test
 /*.config.js
+/*.config.cjs
+/*.config.mjs
 __snapshots__
+/coverage
 .yo-rc.json
 /renovate.json
 /yarn.lock
