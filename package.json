@@ -11,13 +11,16 @@
   "engines": {
     "node": ">=18.12.0"
   },
-  "packageManager": "yarn@3.6.4",
+  "packageManager": "yarn@4.0.1",
   "main": "./lib/index.js",
   "exports": {
     ".": "./lib/index.js",
     "./package.json": "./package.json"
   },
   "sideEffects": false,
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "checks": "node scripts/check-package.js",
     "clean:build": "true",
@@ -36,22 +39,6 @@
       "@pob/commitlint-config"
     ]
   },
-  "jest": {
-    "cacheDirectory": "./node_modules/.cache/jest",
-    "testMatch": [
-      "<rootDir>/lib/**/__tests__/**/*.?(m)js",
-      "<rootDir>/lib/**/*.test.?(m)js"
-    ],
-    "collectCoverageFrom": [
-      "lib/**/*.?(m)js"
-    ],
-    "moduleFileExtensions": [
-      "js",
-      "json"
-    ],
-    "extensionsToTreatAsEsm": [],
-    "testEnvironment": "node"
-  },
   "pob": {},
   "peerDependencies": {
     "@babel/core": "^7.0.0"
@@ -67,12 +54,12 @@
     "@svgr/plugin-jsx": "^8.0.1"
   },
   "devDependencies": {
-    "@babel/core": "7.22.10",
-    "@babel/preset-env": "7.22.10",
-    "@babel/preset-react": "7.22.5",
-    "@pob/commitlint-config": "6.1.0",
-    "@pob/eslint-config": "51.0.0",
-    "@pob/root": "8.2.2",
+    "@babel/core": "7.23.2",
+    "@babel/preset-env": "7.23.2",
+    "@babel/preset-react": "7.22.15",
+    "@pob/commitlint-config": "6.2.0",
+    "@pob/eslint-config": "51.1.2",
+    "@pob/root": "8.6.0",
     "@types/jest": "29.5.7",
     "check-package-dependencies": "6.8.0",
     "eslint": "8.53.0",
