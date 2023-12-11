@@ -23,7 +23,6 @@
   ],
   "scripts": {
     "checks": "node scripts/check-package.js",
-    "clean:build": "true",
     "lint": "yarn run lint:prettier && yarn run lint:eslint",
     "lint:eslint": "eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet *.{js,cjs,mjs} lib scripts",
     "lint:prettier": "pob-root-prettier --check .",
@@ -57,7 +56,7 @@
     "@babel/core": "7.23.5",
     "@babel/preset-env": "7.23.5",
     "@babel/preset-react": "7.23.3",
-    "@pob/commitlint-config": "6.2.0",
+    "@pob/commitlint-config": "6.3.0",
     "@pob/eslint-config": "51.2.0",
     "@pob/root": "8.9.1",
     "@types/jest": "29.5.11",
