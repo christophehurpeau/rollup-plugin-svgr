@@ -2058,12 +2058,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/commitlint-config@npm:6.3.1":
-  version: 6.3.1
-  resolution: "@pob/commitlint-config@npm:6.3.1"
+"@pob/commitlint-config@npm:6.3.2":
+  version: 6.3.2
+  resolution: "@pob/commitlint-config@npm:6.3.2"
   dependencies:
     "@commitlint/config-conventional": "npm:^18.0.0"
-  checksum: 10c0/2302bccfda15857aada933c56a340623ee26baede1b4dd17a5c7387012fb5ee9b279539676a1be4d85ce86e1af55dbd406af5c4774c594b77f857ea5d8806dbe
+  checksum: 10c0/87c20ffaf102a3d68a9bcc39f5aae64800fab756e888cfd4cd8d735e45000b1df613d43d1a16ec5b4f4b39ed4184edf00dac92aea19b406f6fad876c6275076b
   languageName: node
   linkType: hard
 
@@ -6893,7 +6893,7 @@ __metadata:
     "@babel/core": "npm:7.24.0"
     "@babel/preset-env": "npm:7.24.0"
     "@babel/preset-react": "npm:7.23.3"
-    "@pob/commitlint-config": "npm:6.3.1"
+    "@pob/commitlint-config": "npm:6.3.2"
     "@pob/eslint-config": "npm:54.0.1"
     "@pob/root": "npm:9.2.0"
     "@rollup/pluginutils": "npm:^5.0.2"
