@@ -44,7 +44,7 @@ By default, babel is not enabled. First, you probably need `@babel/core`, `@babe
   plugins: [
     svgr({
       babel: {
-        presets: ['@babel/preset-env', '@babel/preset-react'],
+        presets: ["@babel/preset-env", "@babel/preset-react"],
       },
     }),
   ];
