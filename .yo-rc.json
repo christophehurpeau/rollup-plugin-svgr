@@ -13,7 +13,7 @@
       "testing": {
         "ci": true,
         "codecov": false,
-        "runner": "jest"
+        "runner": "node"
       }
     }
   }
