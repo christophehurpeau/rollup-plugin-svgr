@@ -50,9 +50,9 @@
     }
   },
   "dependencies": {
-    "@rollup/pluginutils": "^5.0.2",
-    "@svgr/core": "^8.0.0",
-    "@svgr/plugin-jsx": "^8.0.1"
+    "@rollup/pluginutils": "^5.1.0",
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0"
   },
   "devDependencies": {
     "@babel/core": "7.25.2",
