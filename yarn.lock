@@ -1980,9 +1980,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/eslint-config@npm:58.0.2":
-  version: 58.0.2
-  resolution: "@pob/eslint-config@npm:58.0.2"
+"@pob/eslint-config@npm:58.1.0":
+  version: 58.1.0
+  resolution: "@pob/eslint-config@npm:58.1.0"
   dependencies:
     "@eslint/compat": "npm:^1.1.1"
     "@eslint/eslintrc": "npm:3.1.0"
@@ -1994,7 +1994,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:^55.0.0"
   peerDependencies:
     eslint: ^9.9.0
-  checksum: 10c0/8ea52990f1e25c6edb9336974de0aa17d97d1935c81125b08aaa5f59d87beaf5120cce55ebaec02afec197591f344baddaa7dcfd1a22f6198a9a15f247b7efdb
+  checksum: 10c0/85a27bd32f842a957ef77c8dd50b0d86c94bac05eba17e02e26a60b9eb3560e107a80573ed511c20768a83cd13dce4e71948832030d790f36340c784d609fdf8
   languageName: node
   linkType: hard
 
@@ -6472,7 +6472,7 @@ __metadata:
     "@babel/preset-env": "npm:7.25.4"
     "@babel/preset-react": "npm:7.24.7"
     "@pob/commitlint-config": "npm:7.0.0"
-    "@pob/eslint-config": "npm:58.0.2"
+    "@pob/eslint-config": "npm:58.1.0"
     "@pob/root": "npm:13.2.0"
     "@rollup/pluginutils": "npm:^5.1.0"
     "@svgr/core": "npm:^8.1.0"
