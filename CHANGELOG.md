@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.0](https://github.com/christophehurpeau/rollup-plugin-svgr/compare/v3.0.0...v4.0.0) (2024-12-06)
+
+### ⚠ BREAKING CHANGES
+
+* stop using fs.readFileSync
+* drop babel option, add transform option
+
+### Features
+
+* drop babel option, add transform option ([b812f2a](https://github.com/christophehurpeau/rollup-plugin-svgr/commit/b812f2abcdfe2f80d991b651645f23ac72f93e5f))
+
+### Performance Improvements
+
+* stop using fs.readFileSync ([7c1b947](https://github.com/christophehurpeau/rollup-plugin-svgr/commit/7c1b9479cf254f3e29ee04408c6415fd7521f55f))
+
 ## [3.0.0](https://github.com/christophehurpeau/rollup-plugin-svgr/compare/v2.1.0...v3.0.0) (2024-12-06)
 
 ### ⚠ BREAKING CHANGES

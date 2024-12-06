@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-svgr",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "simple rollup plugin svgr without svgo or babel",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
