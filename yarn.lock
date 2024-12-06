@@ -6477,11 +6477,6 @@ __metadata:
     check-package-dependencies: "npm:7.2.0"
     eslint: "npm:9.16.0"
     rollup: "npm:4.28.1"
-  peerDependencies:
-    "@babel/core": ^7.0.0
-  peerDependenciesMeta:
-    "@babel/core":
-      optional: true
   languageName: unknown
   linkType: soft
 

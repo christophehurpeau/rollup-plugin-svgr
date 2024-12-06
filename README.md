@@ -37,14 +37,25 @@ Official https://www.npmjs.com/package/@svgr/rollup which has svgo and babel ena
 }
 ```
 
-By default, babel is not enabled. First, you probably need `@babel/core`, `@babel/preset-react` and `@babel/preset-env` installed, then pass `babel` option:
+You can add a additional transform step. For example, babel: first, you need `@babel/core`, `@babel/preset-react` and `@babel/preset-env` installed, then pass `transform` option:
 
 ```js
+import { loadPartialConfig, transformAsync } from "@babel/core";
+const babelConfig = loadPartialConfig({
+  babelrc: false,
+  configFile: false,
+  presets: ["@babel/preset-env", "@babel/preset-react"],
+});
+
 {
   plugins: [
     svgr({
-      babel: {
-        presets: ["@babel/preset-env", "@babel/preset-react"],
+      transform: async (code) => {
+        const result = await transformAsync(code, babelConfig.options);
+        if (!result?.code) {
+          throw new Error("Error while transforming using Babel");
+        }
+        return result.code;
       },
     }),
   ];

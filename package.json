@@ -41,14 +41,6 @@
   },
   "pob": {},
   "prettier": "@pob/root/prettier-config",
-  "peerDependencies": {
-    "@babel/core": "^7.0.0"
-  },
-  "peerDependenciesMeta": {
-    "@babel/core": {
-      "optional": true
-    }
-  },
   "dependencies": {
     "@rollup/pluginutils": "^5.1.3",
     "@svgr/core": "^8.1.0",
