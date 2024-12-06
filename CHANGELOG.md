@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.0](https://github.com/christophehurpeau/rollup-plugin-svgr/compare/v2.1.0...v3.0.0) (2024-12-06)
+
+### ⚠ BREAKING CHANGES
+
+* drop node 18 support
+
+### Features
+
+* update dependencies and requires node 20 ([e52d933](https://github.com/christophehurpeau/rollup-plugin-svgr/commit/e52d933cf553b29da2e90efff830692a68aae3f3))
+
 ## [2.1.0](https://github.com/christophehurpeau/rollup-plugin-svgr/compare/v2.0.0...v2.1.0) (2024-08-17)
 
 ### Features
