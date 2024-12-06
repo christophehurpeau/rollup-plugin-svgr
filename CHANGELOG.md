@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.1](https://github.com/christophehurpeau/rollup-plugin-svgr/compare/v4.0.0...v4.0.1) (2024-12-06)
+
+Note: no notable changes
+
+
 ## [4.0.0](https://github.com/christophehurpeau/rollup-plugin-svgr/compare/v3.0.0...v4.0.0) (2024-12-06)
 
 ### ⚠ BREAKING CHANGES
