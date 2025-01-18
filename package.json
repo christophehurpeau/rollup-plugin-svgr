@@ -53,7 +53,7 @@
     "@pob/commitlint-config": "8.0.1",
     "@pob/eslint-config": "59.3.2",
     "@pob/root": "14.4.0",
-    "check-package-dependencies": "9.0.0",
+    "check-package-dependencies": "9.1.0",
     "eslint": "9.18.0",
     "rollup": "4.30.1"
   }
