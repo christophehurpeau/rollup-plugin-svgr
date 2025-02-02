@@ -52,7 +52,7 @@
     "@babel/preset-react": "7.26.3",
     "@pob/commitlint-config": "8.0.1",
     "@pob/eslint-config": "59.3.2",
-    "@pob/root": "14.4.0",
+    "@pob/root": "16.0.0",
     "check-package-dependencies": "9.1.0",
     "eslint": "9.19.0",
     "rollup": "4.34.0"
