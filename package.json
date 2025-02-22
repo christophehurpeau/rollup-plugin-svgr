@@ -54,7 +54,7 @@
     "@pob/eslint-config": "59.7.0",
     "@pob/root": "16.1.0",
     "check-package-dependencies": "9.2.0",
-    "eslint": "9.20.1",
+    "eslint": "9.21.0",
     "rollup": "4.34.8"
   }
 }
