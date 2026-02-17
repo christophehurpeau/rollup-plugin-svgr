@@ -47,9 +47,9 @@
     "@svgr/plugin-jsx": "^8.1.0"
   },
   "devDependencies": {
-    "@babel/core": "7.26.10",
-    "@babel/preset-env": "7.26.9",
-    "@babel/preset-react": "7.26.3",
+    "@babel/core": "7.29.0",
+    "@babel/preset-env": "7.29.0",
+    "@babel/preset-react": "7.28.5",
     "@pob/commitlint-config": "9.2.0",
     "@pob/eslint-config": "62.0.0",
     "@pob/root": "16.1.0",
