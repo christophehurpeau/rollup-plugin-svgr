@@ -7,6 +7,9 @@
   "license": "ISC",
   "repository": "https://github.com/christophehurpeau/rollup-plugin-svgr.git",
   "homepage": "https://github.com/christophehurpeau/rollup-plugin-svgr",
+  "bugs": {
+    "url": "https://github.com/christophehurpeau/rollup-plugin-svgr/issues"
+  },
   "type": "module",
   "packageManager": "yarn@4.11.0",
   "engines": {
